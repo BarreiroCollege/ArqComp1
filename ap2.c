@@ -130,7 +130,7 @@ int main(int argc, char ** argv)
         }
     }
 
-    ck = get_counter();
+    ck = get_counter() / 10;
    
     for (int i = 0; i < 10; i++){
         printf("%lf\t", red[i]);
